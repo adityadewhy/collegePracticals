@@ -15,7 +15,7 @@ void main(){
     }
 
     // Display the mat1
-    printf("\nResult of matrix multiplication:\n");
+    printf("\n matrix :\n");
     for (int i = 0; i < rows1; i++) {
         for (int j = 0; j < cols1; j++) {
             printf("%d\t", mat1[i][j]);
@@ -34,7 +34,7 @@ void main(){
 
     // Display the transpose
 
-    printf("\nResult of matrix multiplication:\n");
+    printf("\nResult of matrix transpose:\n");
     for (int i = 0; i < rows1; i++) {
         for (int j = 0; j < cols1; j++) {
             printf("%d\t", mat1[i][j]);
